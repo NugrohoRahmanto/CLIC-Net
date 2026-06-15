@@ -1,0 +1,71 @@
+# ---------------------------------------------------------------------------
+# Local environments and Python/Jupyter cache
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------------------------------------------------------------------------
+# Local IDE / agent state
+# ---------------------------------------------------------------------------
+.idea/
+.vscode/
+.agents/
+.codex/
+
+# ---------------------------------------------------------------------------
+# Data generated or downloaded locally
+# Public repository should not contain ECG datasets or processed beat arrays.
+# The notebooks recreate these folders:
+#   dataset/ptb_xl/
+#   dataset/ptb_diagnostic/
+# ---------------------------------------------------------------------------
+dataset/*
+!dataset/.gitkeep
+
+# ---------------------------------------------------------------------------
+# Experiment outputs, logs, and runtime files
+# ---------------------------------------------------------------------------
+outputs/
+output_backup/
+dump_artifact/
+notebook/executed/
+*.log
+*.pid
+clicnet_pipeline.pid
+
+# ---------------------------------------------------------------------------
+# Large ML / numerical artifacts
+# ---------------------------------------------------------------------------
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.h5
+*.onnx
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# ---------------------------------------------------------------------------
+# Manuscript/private paper artifacts are not part of the public code release
+# ---------------------------------------------------------------------------
+fig-tex/
+file-tex/
+notebook/final_summary_figures_for_tex.ipynb
+notebook/executed
+
+# ---------------------------------------------------------------------------
+# Temporary notebook runners and local scratch scripts
+# ---------------------------------------------------------------------------
+run_revise_plan_notebooks.sh
+REMOTE_TRAINING.md
+notebook_revise_plan/
