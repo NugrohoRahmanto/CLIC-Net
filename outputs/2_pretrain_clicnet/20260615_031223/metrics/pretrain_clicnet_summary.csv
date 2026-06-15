@@ -1,0 +1,2 @@
+variant,status,test_accuracy,test_macro_f1,test_weighted_f1,test_f1_NORM,test_f1_AMI,test_f1_IMI,test_f1_Lateral_involved_MI,checkpoint_path
+clicnet_counterfactual,OK,0.8190971958355499,0.6962999488623964,0.8353363708087067,0.8984377086393377,0.5728018094430308,0.5652423286492687,0.7487179487179487,/home/nugee/code-program/code-thesis/hibah/myocardial-infarction-localization/outputs/2_pretrain_clicnet/20260615_031223/checkpoints/best_macro_f1.pt

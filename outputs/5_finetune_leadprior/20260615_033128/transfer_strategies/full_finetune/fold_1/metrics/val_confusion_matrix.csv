@@ -1,0 +1,5 @@
+,NORM,AMI,IMI,Lateral-involved MI
+NORM,123,0,2,0
+AMI,0,80,0,1
+IMI,0,0,150,1
+Lateral-involved MI,2,1,1,130

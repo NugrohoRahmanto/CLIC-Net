@@ -1,0 +1,6 @@
+seed,fold,train_beats,val_beats,test_beats,train_idx_hash,val_idx_hash,test_idx_hash,train_Normal,val_Normal,test_Normal,train_Anterior,val_Anterior,test_Anterior,train_Inferior,val_Inferior,test_Inferior,train_Lateral,val_Lateral,test_Lateral
+42,1,1960,491,507,bb39d615c6b0,33e40860575c,5f95527a3b16,496,125,141,323,81,97,607,151,184,534,134,85
+42,2,1961,490,507,697a7a86abdb,2d3ed0b726f5,5f95527a3b16,497,124,141,323,81,97,607,151,184,534,134,85
+42,3,1961,490,507,9fd5d1926960,7aada9f71f70,5f95527a3b16,497,124,141,324,80,97,606,152,184,534,134,85
+42,4,1961,490,507,b6dcfc90d81f,a3e650f9ae3c,5f95527a3b16,497,124,141,323,81,97,606,152,184,535,133,85
+42,5,1961,490,507,be3419ebc418,bb6c0da8ff4b,5f95527a3b16,497,124,141,323,81,97,606,152,184,535,133,85

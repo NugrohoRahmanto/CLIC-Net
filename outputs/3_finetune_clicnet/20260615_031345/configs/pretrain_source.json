@@ -1,0 +1,8 @@
+{
+  "transfer_dir": "/home/nugee/code-program/code-thesis/hibah/myocardial-infarction-localization/outputs/2_pretrain_clicnet/20260615_031223/transfer_ready",
+  "backbone": "/home/nugee/code-program/code-thesis/hibah/myocardial-infarction-localization/outputs/2_pretrain_clicnet/20260615_031223/transfer_ready/clicnet_backbone.pt",
+  "full_model": "/home/nugee/code-program/code-thesis/hibah/myocardial-infarction-localization/outputs/2_pretrain_clicnet/20260615_031223/transfer_ready/clicnet_full_model.pt",
+  "heads": "/home/nugee/code-program/code-thesis/hibah/myocardial-infarction-localization/outputs/2_pretrain_clicnet/20260615_031223/transfer_ready/clicnet_heads.pt",
+  "model_config": "/home/nugee/code-program/code-thesis/hibah/myocardial-infarction-localization/outputs/2_pretrain_clicnet/20260615_031223/transfer_ready/model_config.json",
+  "label_mapping": "/home/nugee/code-program/code-thesis/hibah/myocardial-infarction-localization/outputs/2_pretrain_clicnet/20260615_031223/transfer_ready/label_mapping.json"
+}

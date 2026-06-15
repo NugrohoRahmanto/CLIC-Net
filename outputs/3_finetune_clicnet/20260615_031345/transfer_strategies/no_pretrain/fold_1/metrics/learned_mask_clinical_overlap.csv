@@ -1,0 +1,5 @@
+class,internal_label,expected_clinical_leads,top3_learned_mask_leads,top5_learned_mask_leads,overlap_at_3,overlap_at_5,mean_expected_mask_weight,mean_non_expected_mask_weight
+NORM,Normal,"I,aVL,II,III,aVF,aVR,V1,V2,V3,V4,V5,V6","V5,V2,aVR","V5,V2,aVR,V6,III",1.0,1.0,0.5012391805648804,
+AMI,Anterior,"V1,V2,V3,V4","V2,V4,II","V2,V4,II,V5,aVF",0.6666666666666666,0.5,0.49971258640289307,0.4928404688835144
+IMI,Inferior,"II,III,aVF","aVL,V3,V1","aVL,V3,V1,V4,II",0.0,0.3333333333333333,0.4952690899372101,0.49475228786468506
+Lateral-involved MI,Lateral,"I,aVL,V5,V6","III,I,V1","III,I,V1,V3,aVR",0.3333333333333333,0.25,0.49541646242141724,0.5015864968299866
