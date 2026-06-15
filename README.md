@@ -250,7 +250,12 @@ The data-preparation notebook needs the folder that directly contains `ptbxl_dat
 
 ### PTB Diagnostic
 
-The current data-preparation notebook expects a PTB Diagnostic raw folder containing:
+PTB Diagnostic can be obtained from either the original PhysioNet source or a Kaggle mirror that already provides the records in a convenient NumPy format:
+
+- Original PhysioNet database: `https://www.physionet.org/content/ptbdb/1.0.0/`
+- Kaggle `.npz` version used by this project format: `https://www.kaggle.com/datasets/openmark/ptb-diagnostic-ecg-database/data`
+
+The current data-preparation notebook expects the PTB Diagnostic raw root to contain:
 
 ```text
 ptb_diagnostic_raw/
@@ -258,7 +263,9 @@ ptb_diagnostic_raw/
 └── meta.csv
 ```
 
-If you use a different PTB Diagnostic format, adapt the loader in `notebook/1_data_preparation.ipynb` or convert the raw records into the expected `data_raw.npz` and `meta.csv` format.
+If you download the Kaggle version, place the extracted files so that `data_raw.npz` and `meta.csv` are directly inside the folder passed to `CLICNET_PTB_DIAGNOSTIC_RAW_ROOT`.
+
+If you download the original PhysioNet PTB Diagnostic database, convert the WFDB records and metadata into the expected `data_raw.npz` and `meta.csv` layout, or adapt the loader in `notebook/1_data_preparation.ipynb`. The notebook currently uses the `.npz` layout because it is faster and avoids repeatedly parsing every raw WFDB record during data preparation.
 
 ### Recommended local data layout
 
