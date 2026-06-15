@@ -32,7 +32,7 @@ dataset/*
 # ---------------------------------------------------------------------------
 # Experiment outputs, logs, and runtime files
 # ---------------------------------------------------------------------------
-outputs/
+outputs
 output_backup/
 dump_artifact/
 notebook/executed/
